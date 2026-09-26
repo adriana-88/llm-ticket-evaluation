@@ -69,7 +69,7 @@ The numerical analysis is reproducible from the CSV. `PROMPTS.md` documents the 
 
 ## Data and provenance
 
-`evaluation_data.csv` was recovered from the complete 34-row dataframe captured during the project on 24 September 2026. It is the later 34-run dataset, not the earlier pilot or synthetic practice datasets used while learning evaluation.
+`evaluation_data.csv` contains the 34 recorded observations used in this analysis. It represents the final evaluation dataset and is separate from the earlier pilot and synthetic practice datasets used while learning evaluation.
 
 
 Cleaning preserved all 34 observations and their original order. The display index was removed, displayed `NaN` attack targets were converted to blank CSV cells for controls, and derived scoring columns were removed and recomputed by the script. No outputs, labels, repeats or conditions were added or corrected. The recomputed flags were checked against the saved table.
@@ -102,4 +102,4 @@ The repository consists of this README, `PROMPTS.md`, `evaluation_data.csv`, `an
 
 ## Contribution and scope
 
-This is an AI-assisted learning and portfolio project. Adriana conducted manual prompt tests, reported the observed outputs, and developed the evaluation analysis with ChatGPT guidance. ChatGPT assisted with test design and code; the repository cleanup, validation checks and additional class-metric reporting were prepared with AI assistance. The project demonstrates structured evaluation and careful reporting of a small experiment; it does not claim production deployment or independent development of an evaluation platform.
+This is an AI-assisted learning and portfolio project. I conducted the manual prompt tests, recorded the observed outputs, and developed the evaluation analysis with ChatGPT guidance. ChatGPT assisted with test design, code, repository cleanup, validation checks, and additional class-level metric reporting. The project demonstrates structured evaluation and careful reporting of a small experiment; it does not claim production deployment or independent development of an evaluation platform.
